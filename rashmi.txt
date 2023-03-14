@@ -1,0 +1,4 @@
+1. Fork project: replica will be created in your github account.
+2. Clone it, make changes, push to your forked branch
+3. Raise pull request
+4. Maintainer will review and merge it
