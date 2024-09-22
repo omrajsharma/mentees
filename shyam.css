@@ -1,0 +1,93 @@
+
+body {
+    background-image: linear-gradient(to bottom, #f06b6b, #f7f265, #85f779);
+    background-attachment: fixed; /* This ensures the gradient doesn't scroll */
+}
+header nav ul li a:hover {
+    background-color: yellowgreen;
+}
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+
+    list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+
+.image-gallery img {
+    width: %; /* Adjust the width as needed */
+    height: auto;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+    border-radius: 5px;
+
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+.event-updates {
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eee;
+}
+
+
+/* Your existing CSS styles */
+
+#feedback {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#feedbackForm {
+    width: 50%;
+    margin: 0 auto;
+}
+
+#feedbackSuccess {
+    color: green;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+
+  }
+  
+  h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+  }
